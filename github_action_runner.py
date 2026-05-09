@@ -12,6 +12,8 @@ import numpy as np
 # 配置读取 (优先从环境变量读取)
 # ==========================================
 SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp.126.com")
+# SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp.126.com")
+# SMTP_SERVER = os.environ.get("SMTP_SERVER", "smtp.126.com")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", 465))
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
 SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD")
